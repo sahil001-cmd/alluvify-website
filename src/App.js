@@ -76,10 +76,35 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Our Clients Section */}
+      <section id="clients" className="py-16 px-6 bg-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-semibold mb-8">Our Clients</h2>
+          <div className="flex justify-center items-center gap-8">
+            <a href="https://thesama.in" target="_blank" rel="noopener noreferrer">
+              <img
+                src="/thesama-logo.png"
+                alt="thesama.in logo"
+                className="h-24 object-contain bg-white rounded shadow p-2"
+                style={{ maxWidth: '220px' }}
+              />
+            </a>
+            <a href="https://navgurukul.org" target="_blank" rel="noopener noreferrer">
+              <img
+                src="/Navgurukul-logo.png"
+                alt="Navgurukul logo"
+                className="h-24 object-contain bg-white rounded shadow p-2"
+                style={{ maxWidth: '220px' }}
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section id="about" className="py-16 px-6 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-semibold mb-4">Why Alluvify?</h2>
-          <p>We’re engineers, strategists, and product thinkers united by one goal: to make great technology accessible to everyone. Businesses of all sizes deserve tools as powerful as their mission — and we build exactly that.</p>
+          <p>We're engineers, strategists, and product thinkers united by one goal: to make great technology accessible to everyone. Businesses of all sizes deserve tools as powerful as their mission — and we build exactly that.</p>
         </div>
       </section>
 
